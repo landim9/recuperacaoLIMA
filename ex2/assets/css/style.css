@@ -1,0 +1,104 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-size: cover;
+    background-image: url(/ex2/assets/img/background.jpg);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 7vh;
+    background-color: #fcba03;
+}
+
+.rightbar {
+    gap: 10px;
+    display: flex;
+    text-align: center;
+    justify-content: right;
+    color: #fc5903;
+}
+
+.leftbar {
+    gap: 10px;
+    display: flex;
+    text-align: center;
+    justify-content: left;
+    color: white;
+}
+
+.subar {
+    background-color: black;
+    height: 7vh;
+    display: flex;
+}
+
+.subar img {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 35px;
+    width: 35px;
+    transform: translateY(15px);
+}
+
+.subar p {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    transform: translateX(10px);
+}
+
+main{
+    width: 100vw;
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(37, 36, 36, 0.783);
+    padding: 40px;
+    height: 20vh;
+    width: 100vh;
+}
+
+.busca input {
+    display: flex;
+    flex-direction: row;
+    width: 250px;
+    padding: 5px;
+    margin-top: 15px;
+}
+
+.busca p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    color: white;
+    font-size: 25px;
+}
+
+.busca img {
+    width: 30px;
+    height: 30px;
+    transform: translateY(20px);
+}
+
+.input{
+    display: flex;
+    gap: 10px;
+}
+
+.input input{
+    padding: 10px;
+}

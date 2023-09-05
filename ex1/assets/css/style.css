@@ -1,0 +1,90 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+body {
+    background-color: rgb(39, 38, 38);
+}
+
+.Roxo {
+    width: 150px;
+    height: 150px;
+    background-color: blueviolet;
+}
+
+.Roxo img {
+    width: 150px;
+    height: 150px;
+}
+
+.Roxo p {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.Laranja {
+    width: 150px;
+    height: 150px;
+    background-color: darkorange;
+}
+
+.Laranja img {
+    width: 150px;
+    height: 150px;
+}
+
+.Laranja p {
+    display: flex;
+    text-align: center;
+
+}
+
+.Verde {
+    width: 150px;
+    height: 150px;
+    background-color: greenyellow;
+}
+
+.Verde img {
+    width: 150px;
+    height: 150px;
+}
+
+.Verde p {
+    display: flex;
+    text-align: center;
+
+}
+
+.container {
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+    justify-content: space-between;
+    margin: 20px
+}
+
+.container div {
+    margin: 10px;
+}
+
+.container1 {
+    display: flex;
+    width: 100vw;
+    justify-content: space-evenly;
+    margin: 50px;
+}
+
+.container2 {
+    display: flex;
+    width: 100vw;
+    justify-content: space-around;
+}
